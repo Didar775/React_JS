@@ -1,0 +1,74 @@
+/* App.css */
+
+.messenger-container {
+  display: flex;
+  height: 80vh;
+  width: 80vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chats-list {
+  width: 30%;
+  background-color: #0088cc;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.chat {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chat:hover {
+  background-color: #005580;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.chat-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.message-input {
+  margin-top: 20px;
+  display: flex;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.message-input button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
